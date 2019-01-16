@@ -62,11 +62,3 @@ public class CategorieDaoTest extends JpaTest {
 		assertNull(categorie);
 	}
 }
-
-
-
-
-
-
-
-

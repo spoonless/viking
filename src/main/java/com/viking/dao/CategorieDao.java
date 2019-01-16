@@ -3,7 +3,6 @@ package com.viking.dao;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
 
 import com.viking.entite.Categorie;
 
@@ -43,21 +42,3 @@ public class CategorieDao {
 		return categories.isEmpty() ? null : categories.get(0);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
